@@ -1,9 +1,9 @@
 class StillnoteRuntime < Formula
   desc "Local speech runtime for Stillnote"
   homepage "https://github.com/jxu-dev-c/Stillnote"
-  url "https://github.com/jxu-dev-c/homebrew-stillnote/releases/download/v0.2.0/Stillnote-runtime-0.2.0-macos-arm64.tar.gz"
-  version "0.2.0"
-  sha256 "116ba4839e3091de1b85a0788bc764ef6fbb47357843f8f6382be99d2da5aff6"
+  url "https://github.com/jxu-dev-c/homebrew-stillnote/releases/download/v0.2.1/Stillnote-runtime-0.2.1-macos-arm64.tar.gz"
+  version "0.2.1"
+  sha256 "981bbc63aa61c31c7d6e01386a07acf3741220a3d18437978dc79fa1824bf8df"
   license "MIT"
 
   depends_on arch: :arm64
