@@ -1,13 +1,12 @@
 cask "stillnote" do
-  version "0.3.0"
-  sha256 "68f9ab2904495867341a2533f02a625b4c48686f5152fac576ed2ba7968b56e3"
+  version "0.4.0"
+  sha256 "1c9db8dd5301e43c4c6db10dbff2cb8acf14d0b9f5f5b9ba804021f203c0eaa0"
 
   url "https://github.com/jxu-dev-c/homebrew-stillnote/releases/download/v#{version}/Stillnote-#{version}-macos-arm64.zip"
   name "Stillnote"
   desc "Private meeting notebook with local speech transcription"
   homepage "https://github.com/jxu-dev-c/Stillnote"
 
-  depends_on formula: "jxu-dev-c/stillnote/stillnote-runtime"
   depends_on arch: :arm64
   depends_on macos: :sequoia
 

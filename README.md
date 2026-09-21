@@ -3,7 +3,7 @@
 For Apple silicon Macs running macOS 15 or newer:
 
 ```sh
-brew install jxu-dev-c/stillnote/stillnote-runtime jxu-dev-c/stillnote/stillnote
+brew install jxu-dev-c/stillnote/stillnote
 ```
 
 Open Stillnote, approve its first launch in macOS Privacy & Security if needed,
@@ -69,11 +69,10 @@ Quit Stillnote before upgrading:
 
 ```sh
 brew update
-brew upgrade jxu-dev-c/stillnote/stillnote-runtime
 brew upgrade --cask jxu-dev-c/stillnote/stillnote
 ```
 
-Repair speech dependencies with `brew reinstall jxu-dev-c/stillnote/stillnote-runtime`.
+Repair the bundled speech engine with `brew reinstall --cask jxu-dev-c/stillnote/stillnote`.
 Uninstall with `brew uninstall --cask jxu-dev-c/stillnote/stillnote`; optionally remove
 `stillnote-runtime` too. Meetings and downloaded models remain in Application Support.
 
