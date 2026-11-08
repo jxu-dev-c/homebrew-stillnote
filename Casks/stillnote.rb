@@ -1,6 +1,6 @@
 cask "stillnote" do
-  version "0.11.0"
-  sha256 "8e071eb214af98fa9fcb8de4a5283dd80dc0fad2cc5f801327011e4acd092251"
+  version "0.12.0"
+  sha256 "66d85429bebed968029735ffc1d1bc54e6c7f264becb49dc7b17ff15828ea8b3"
 
   url "https://github.com/jxu-dev-c/homebrew-stillnote/releases/download/v#{version}/Stillnote-#{version}-macos-arm64.zip"
   name "Stillnote"
@@ -16,7 +16,7 @@ cask "stillnote" do
 
   caveats <<~EOS
     Download the speech model once in Stillnote Settings.
-    This app is ad-hoc signed. macOS may require approval in Privacy & Security.
+    This app is not Apple-notarized. macOS may require approval in Privacy & Security.
     The stillnote command reads and corrects meetings and controls recording while the
     app is open; it can be switched off in Settings > Advanced.
     Meetings and models are preserved when uninstalling.
