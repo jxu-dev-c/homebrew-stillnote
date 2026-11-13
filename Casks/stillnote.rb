@@ -1,6 +1,6 @@
 cask "stillnote" do
-  version "0.13.1"
-  sha256 "08f4a2ba09f66ff5d4339a5856efc66bf6ebc606965bcb800e57b1d2e67e1c31"
+  version "0.14.0"
+  sha256 "047006e7f59f6f2fe93e518316ba8a488e90293a3242f18faa1105e414eb71e8"
 
   url "https://github.com/jxu-dev-c/homebrew-stillnote/releases/download/v#{version}/Stillnote-#{version}-macos-arm64.zip"
   name "Stillnote"
